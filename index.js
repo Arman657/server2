@@ -42,7 +42,6 @@ const server = app.listen(port,()=>{
 setupSocket(server)
 
 
-//---------------Deployment---------------
 
 
 
@@ -51,7 +50,7 @@ setupSocket(server)
     })
 
 
-//---------------Deployment---------------
+
 
 // mongoose.connect(databaseURL).then(()=>console.log('DB Connection Successfully'));
 const connectDB = async() => {
